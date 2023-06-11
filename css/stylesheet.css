@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width: 268px;
+    height: 33px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navtools a{
+    color: rgb(151, 151, 151);
+}
+
+.navtools a:hover{
+    color: rgb(0,204,177);
+}
+
+main{
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerlogo{
+    width: 40px;
+    height: 40px;
+}
+
+.headertitle{
+    font-size: 2.15rem;
+    color: rgb(0,204,177);
+}
+
+.twoparagraphs{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.p-header1, .p-header2{
+    flex-basis: 575px;
+}
+
+.forsection{
+    margin-top: 60px;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.patients, .doctors, .clinics{
+    font-weight: 35px;
+    flex-basis: 250px;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+}
+
+.patients-title, .doctors-title, .clinics-title{
+    font-size: 30px;
+}
+
+.patients, .patients select{
+    background-color: rgb(230, 143, 223);
+}
+
+.doctors, .doctors select{
+    background-color: rgb(195, 38, 187);
+}
+.clinics, .clinics select{
+    background-color: rgb(95, 18, 91);
+}
+
+select{
+    padding-top: 10px;
+    color: white;
+    border-style: none;
+    border-bottom: 1px solid white;
+}
+
+.partnerships{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec3logos img{
+    width: 75px;
+    object-fit: contain;
+}
+
+.sec3logos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 250px;
+}
+
+.sec3title{
+    font-size: 2rem;
+    color: rgb(0,204,177);
+    margin-top: ;
+}
+
+.info-section{
+    margin-top: 90px;
+    background-color: rgb(204, 251, 244);
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec4heading{
+    padding-top: 60px;
+}
+
+.columns{
+    display: flex;
+    flex-basis: 525px;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.column-card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.column-card p{
+    font-size: 12px;
+}
+
+.column1, .column2{
+    flex-basis: 170px;
+    margin: 15px 0px;
+}
+
+.sec5{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.sec5title{
+    color: rgb(0,179,155);
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.sec5 p{
+    font-size: 12px;
+}
+
+.countries{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 100px 150px;
+}
+
+.country:hover{
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(17, 104, 255);
+    color: white;
+}
+
+.prefooter{
+    text-align: center;
+}
+
+.footer-sec{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 4px;
+}
